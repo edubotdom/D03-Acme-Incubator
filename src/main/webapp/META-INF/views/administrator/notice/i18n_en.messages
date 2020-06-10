@@ -16,5 +16,11 @@ administrator.notice.form.label.body = Body of the notice:
 administrator.notice.form.label.related = Related:
 administrator.notice.form.button.return = Return
 
+administrator.notice.form.label.confirmation = Confirmation
+administrator.notice.confirmation-not-checked = You must check confirmation field
+administrator.notice.form.button.create = Create
+administrator.notice.incorrect-deadline=Deadline must not be past.
+administrator.notice.null-deadline = Deadline field must be filled.
+
 administrator.notice.list.label.title = Title
 administrator.notice.list.label.creation = Creation date

@@ -39,6 +39,7 @@
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
 			<!-- Notice links -->
 			<acme:menu-suboption code="master.menu.administrator.listNotice" action="/administrator/notice/list"/>
+			<acme:menu-suboption code="master.menu.administrator.createNotice" action="/administrator/notice/create"/>
 			<!-- Customizarion links -->
 			<acme:menu-suboption code="master.menu.administrator.customization" action="/administrator/customization/list"/>
 			<!-- Dashboard link -->

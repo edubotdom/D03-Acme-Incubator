@@ -329,7 +329,7 @@ Botia_bulletin
     <panel_attributes>&lt;&lt;Entity&gt;&gt;
 Notice
 --
-+ header: String {NotBlank}
++ header: String {NotBlank, URL}
 + title: String {NotBlank}
 + creation: Date {NotNull, Past}
 + deadline: Date {NotNull}
