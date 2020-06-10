@@ -17,6 +17,7 @@ administrator.inquiry.form.label.contact = Correo electrónico de contacto:
 administrator.inquiry.form.button.return = Volver
 
 administrator.inquiry.form.button.create=Crear
+administrator.inquiry.form.button.update=Actualizar
 administrator.inquiry.null-deadline = Debe introducir una fecha de expiración
 administrator.inquiry.incorrect-deadline = No puede introducir una fecha de expiración pasada
 administrator.inquiry.null-money = Debe introducir una cantidad monetaria

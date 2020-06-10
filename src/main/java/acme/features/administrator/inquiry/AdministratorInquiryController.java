@@ -38,6 +38,9 @@ public class AdministratorInquiryController extends AbstractController<Administr
 	@Autowired
 	private AdministratorInquiryCreateService	createService;
 
+	@Autowired
+	private AdministratorInquiryUpdateService	updateService;
+
 
 	// Constructors -----------------------------------------------------------
 
@@ -46,6 +49,7 @@ public class AdministratorInquiryController extends AbstractController<Administr
 		super.addBasicCommand(BasicCommand.LIST, this.listService);
 		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 		super.addBasicCommand(BasicCommand.CREATE, this.createService);
+		super.addBasicCommand(BasicCommand.UPDATE, this.updateService);
 	}
 
 }
