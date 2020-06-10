@@ -50,6 +50,8 @@ master.menu.administrator.listNotice = Listar avisos
 master.menu.administrator.createNotice = Crear un nuevo aviso
 master.menu.administrator.customization = Parámetros de personalización
 master.menu.administrator.dashboard = Mostrar panel de información
+master.menu.administrator.listInquiry = Listar solicitudes
+master.menu.administrator.createInquiry = Crear una solicitud
 
 # master.menu.provider ########################################################
 
