@@ -49,6 +49,7 @@ master.menu.administrator.shutdown = Shut down
 master.menu.administrator.listNotice = List notices
 master.menu.administrator.customization = List customization parameters
 master.menu.administrator.dashboard = Display dashboard
+master.menu.administrator.createNotice = Create a new notice
 
 # master.menu.provider ########################################################
 

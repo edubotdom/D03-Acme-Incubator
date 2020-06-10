@@ -16,5 +16,11 @@ administrator.notice.form.label.body = Texto del cuerpo:
 administrator.notice.form.label.related = Relacionado:
 administrator.notice.form.button.return = Volver
 
+administrator.notice.form.label.confirmation=Confirmación
+administrator.notice.confirmation-not-checked = Debe aceptar el campo de confirmación
+administrator.notice.form.button.create=Crear
+administrator.notice.incorrect-deadline=La fecha de expiración debe ser futura.
+administrator.notice.null-deadline = Debe introducir una fecha de expiración.
+
 administrator.notice.list.label.title = Título
 administrator.notice.list.label.creation = Fecha de creación
