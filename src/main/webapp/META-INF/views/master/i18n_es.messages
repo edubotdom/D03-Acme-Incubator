@@ -58,6 +58,8 @@ master.menu.administrator.listTechnology = Listar tecnologías
 master.menu.administrator.createTechnology = Registrar tecnología
 master.menu.administrator.listTool = Listar herramientas
 master.menu.administrator.createTool = Registrar herramienta
+master.menu.administrator.listChallenge = Listar desafíos
+master.menu.administrator.createChallenge = Crear un nuevo desafío
 
 # master.menu.provider ########################################################
 

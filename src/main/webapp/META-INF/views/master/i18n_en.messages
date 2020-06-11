@@ -58,6 +58,8 @@ master.menu.administrator.listTechnology = List technologies
 master.menu.administrator.createTechnology = Registry a new technology
 master.menu.administrator.createTool = Registry a new tool
 master.menu.administrator.listTool = List tools
+master.menu.administrator.listChallenge = List challenges
+master.menu.administrator.createChallenge = Create a new challenge
 
 # master.menu.provider ########################################################
 
