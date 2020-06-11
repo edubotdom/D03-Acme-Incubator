@@ -47,6 +47,9 @@
 			<!-- Inquiry links -->
 			<acme:menu-suboption code="master.menu.administrator.listInquiry" action="/administrator/inquiry/list"/>
 			<acme:menu-suboption code="master.menu.administrator.createInquiry" action="/administrator/inquiry/create"/>
+			<!-- Overture links -->
+			<acme:menu-suboption code="master.menu.administrator.listOverture" action="/administrator/overture/list"/>
+			<acme:menu-suboption code="master.menu.administrator.createOverture" action="/administrator/overture/create"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>
