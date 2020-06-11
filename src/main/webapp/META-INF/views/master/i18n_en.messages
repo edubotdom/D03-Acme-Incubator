@@ -54,6 +54,8 @@ master.menu.administrator.listInquiry = List inquiries
 master.menu.administrator.createInquiry = Create an inquiry
 master.menu.administrator.listOverture = List overtures
 master.menu.administrator.createOverture = Create an overture
+master.menu.administrator.listTechnology = List technologies
+master.menu.administrator.createTechnology = Registry a new technology
 
 # master.menu.provider ########################################################
 

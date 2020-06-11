@@ -50,6 +50,9 @@
 			<!-- Overture links -->
 			<acme:menu-suboption code="master.menu.administrator.listOverture" action="/administrator/overture/list"/>
 			<acme:menu-suboption code="master.menu.administrator.createOverture" action="/administrator/overture/create"/>
+			<!-- Technology links -->
+			<acme:menu-suboption code="master.menu.administrator.listTechnology" action="/administrator/technology/list"/>
+			<acme:menu-suboption code="master.menu.administrator.createTechnology" action="/administrator/technology/create"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>
