@@ -53,6 +53,10 @@
 			<!-- Technology links -->
 			<acme:menu-suboption code="master.menu.administrator.listTechnology" action="/administrator/technology/list"/>
 			<acme:menu-suboption code="master.menu.administrator.createTechnology" action="/administrator/technology/create"/>
+			<!-- Tool links -->
+			<acme:menu-suboption code="master.menu.administrator.listTool" action="/administrator/tool/list"/>
+			<acme:menu-suboption code="master.menu.administrator.createTool" action="/administrator/tool/create"/>
+
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>
