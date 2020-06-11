@@ -53,7 +53,7 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			var data = {
-				labels : ["OPEN-SOURCE","CLOSED-SOURCE"],
+				labels : ["CLOSED-SOURCE","OPEN-SOURCE"],
 				datasets : [
 					{
 						label: 'Technologies',
@@ -102,7 +102,7 @@
 	<script type="text/javascript">
 		$(document).ready(function() {
 			var data = {
-				labels : ["OPEN-SOURCE","CLOSED-SOURCE"],
+				labels : ["CLOSED-SOURCE","OPEN-SOURCE"],
 				datasets : [
 					{
 						label: 'Tools',
