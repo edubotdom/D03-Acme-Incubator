@@ -52,6 +52,8 @@ master.menu.administrator.dashboard = Display dashboard
 master.menu.administrator.createNotice = Create a new notice
 master.menu.administrator.listInquiry = List inquiries
 master.menu.administrator.createInquiry = Create an inquiry
+master.menu.administrator.listOverture = List overtures
+master.menu.administrator.createOverture = Create an overture
 
 # master.menu.provider ########################################################
 
