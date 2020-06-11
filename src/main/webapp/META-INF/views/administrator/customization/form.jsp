@@ -20,5 +20,7 @@
 	<acme:form-textbox code="administrator.customization.form.label.threshold" path="threshold"/>
 	<acme:form-textbox code="administrator.customization.form.label.sectors" path="sectors"/>
 	
+	<acme:form-submit code="administrator.customization.form.button.update" action="/administrator/customization/update"/>
+	
   	<acme:form-return code="administrator.customization.form.button.return"/>
 </acme:form>

@@ -15,4 +15,5 @@ administrator.customization.list.label.sectors = Sectores de actividades
 administrator.customization.form.label.spam = Spam
 administrator.customization.form.label.threshold = Límite 
 administrator.customization.form.label.sectors = Sectores de actividad
+administrator.customization.form.button.update = Actualizar
 administrator.customization.form.button.return = Volver
