@@ -18,6 +18,7 @@ administrator.inquiry.form.button.return = Return
 
 administrator.inquiry.form.button.create=Create
 administrator.inquiry.form.button.update=Update
+administrator.inquiry.form.button.delete = Delete
 administrator.inquiry.null-deadline = You must introduce a deadline
 administrator.inquiry.incorrect-deadline = You must introduce a future deadline
 administrator.inquiry.null-money = You must introduce a money quantity

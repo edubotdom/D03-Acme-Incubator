@@ -41,6 +41,9 @@ public class AdministratorInquiryController extends AbstractController<Administr
 	@Autowired
 	private AdministratorInquiryUpdateService	updateService;
 
+	@Autowired
+	private AdministratorInquiryDeleteService	deleteService;
+
 
 	// Constructors -----------------------------------------------------------
 
@@ -50,6 +53,7 @@ public class AdministratorInquiryController extends AbstractController<Administr
 		super.addBasicCommand(BasicCommand.SHOW, this.showService);
 		super.addBasicCommand(BasicCommand.CREATE, this.createService);
 		super.addBasicCommand(BasicCommand.UPDATE, this.updateService);
+		super.addBasicCommand(BasicCommand.DELETE, this.deleteService);
 	}
 
 }

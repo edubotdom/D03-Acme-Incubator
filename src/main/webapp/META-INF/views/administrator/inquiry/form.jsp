@@ -32,6 +32,9 @@
 		
 		<acme:form-submit test="${command!= 'create'}" code="administrator.inquiry.form.button.update"
 		action="/administrator/inquiry/update" />
+		
+		<acme:form-submit test="${command!= 'create'}" code="administrator.inquiry.form.button.delete"
+		action="/administrator/inquiry/delete" />
 	
   	<acme:form-return code="administrator.inquiry.form.button.return"/>
 </acme:form>
