@@ -56,6 +56,8 @@ master.menu.administrator.listOverture = Listar propuestas
 master.menu.administrator.createOverture = Crear propuesta
 master.menu.administrator.listTechnology = Listar tecnologías
 master.menu.administrator.createTechnology = Registrar tecnología
+master.menu.administrator.listTool = Listar herramientas
+master.menu.administrator.createTool = Registrar herramienta
 
 # master.menu.provider ########################################################
 
