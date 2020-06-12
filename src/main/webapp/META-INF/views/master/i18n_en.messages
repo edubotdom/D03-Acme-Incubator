@@ -60,6 +60,8 @@ master.menu.administrator.createTool = Registry a new tool
 master.menu.administrator.listTool = List tools
 master.menu.administrator.listChallenge = List challenges
 master.menu.administrator.createChallenge = Create a new challenge
+master.menu.administrator.createBanner = Create a new banner
+master.menu.administrator.listBanner = List banners
 
 # master.menu.provider ########################################################
 
