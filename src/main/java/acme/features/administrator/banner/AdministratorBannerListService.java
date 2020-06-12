@@ -55,7 +55,7 @@ public class AdministratorBannerListService implements AbstractListService<Admin
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "title", "stars");
+		request.unbind(entity, model, "slogan");
 	}
 
 }

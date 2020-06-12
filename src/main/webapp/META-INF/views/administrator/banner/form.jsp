@@ -16,15 +16,23 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
+
+	<acme:form-hidden path="isCardEmpty"/>
+	<acme:form-hidden path="linkCreateCC"/>
+	<acme:form-hidden path="linkShowCC"/>
+		
 	<acme:form-textbox code="administrator.banner.form.label.slogan" path="slogan"/>
 
 	<acme:form-url code="administrator.banner.form.label.picture" path="picture"/>
 	<acme:form-url code="administrator.banner.form.label.url" path="url"/>
 	
-<%-- 	<jstl:if test="${command == 'create' && source==null || source=='open-source'}">
-
-	</jstl:if> --%>
-
+	<jstl:if test="${isCardEmpty=='true'}">
+	<acme:form-return code="administrator.banner.form.button.createCC" action="${linkCreateCC}"/>
+	</jstl:if>
+	<jstl:if test="${isCardEmpty=='false'}">
+	<acme:form-return code="administrator.banner.form.button.showCC" action="${linkShowCC}"/>
+	</jstl:if>
+	
 	<acme:form-submit test="${command == 'create'}" code="administrator.banner.form.button.create"
 		action="/administrator/banner/create"/>	
 		

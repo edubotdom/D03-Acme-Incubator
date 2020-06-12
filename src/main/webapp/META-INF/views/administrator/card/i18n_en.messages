@@ -18,3 +18,5 @@ administrator.card.form.button.create=Create
 administrator.card.form.button.update=Update
 administrator.card.form.button.delete = Delete
 
+administrator.card.form.button.return=Return
+

@@ -60,6 +60,8 @@ master.menu.administrator.listTool = Listar herramientas
 master.menu.administrator.createTool = Registrar herramienta
 master.menu.administrator.listChallenge = Listar desafíos
 master.menu.administrator.createChallenge = Crear un nuevo desafío
+master.menu.administrator.createBanner = Crear anuncio
+master.menu.administrator.listBanner = Listar anuncios
 
 # master.menu.provider ########################################################
 

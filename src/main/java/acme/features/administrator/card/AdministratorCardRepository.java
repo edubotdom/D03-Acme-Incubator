@@ -17,6 +17,7 @@ import java.util.Collection;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
+import acme.entities.banners.Banner;
 import acme.entities.cards.Card;
 import acme.framework.repositories.AbstractRepository;
 
@@ -28,4 +29,10 @@ public interface AdministratorCardRepository extends AbstractRepository {
 
 	@Query("select n from Card n where n.id = ?1")
 	Card findOneById(int id);
+
+	@Query("select n from Banner n where n.id = ?1")
+	Banner findOneBannerById(int id);
+
+	@Query("select n from Banner n where n.card.id = ?1")
+	Banner findBannerByCard(int id);
 }

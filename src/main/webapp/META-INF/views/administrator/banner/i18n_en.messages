@@ -14,6 +14,8 @@ administrator.banner.form.label.slogan = Slogan
 administrator.banner.form.label.picture= Banner Picture
 administrator.banner.form.label.url = URL
 
+administrator.banner.form.button.createCC = Associate card
+administrator.banner.form.button.showCC = Show card
 
 administrator.banner.form.button.create=Create
 administrator.banner.form.button.update=Update

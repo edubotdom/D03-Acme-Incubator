@@ -4,7 +4,9 @@ package acme.features.administrator.card;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.entities.banners.Banner;
 import acme.entities.cards.Card;
+import acme.features.administrator.banner.AdministratorBannerRepository;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -17,7 +19,10 @@ public class AdministratorCardCreateService implements AbstractCreateService<Adm
 	// Internal state ---------------------------------------------------------
 
 	@Autowired
-	AdministratorCardRepository repository;
+	AdministratorCardRepository		repository;
+
+	@Autowired
+	AdministratorBannerRepository	bannerRepository;
 
 
 	@Override
@@ -43,6 +48,9 @@ public class AdministratorCardCreateService implements AbstractCreateService<Adm
 		assert entity != null;
 		assert model != null;
 
+		Integer id_banner = request.getModel().getInteger("id");
+		model.setAttribute("id_banner", id_banner);
+
 		request.unbind(entity, model, "holder", "number", "brand", "cvv");
 	}
 
@@ -60,12 +68,21 @@ public class AdministratorCardCreateService implements AbstractCreateService<Adm
 		assert entity != null;
 		assert errors != null;
 
+		Integer id_banner = request.getModel().getInteger("id_banner").intValue();
+		Banner banner = this.repository.findOneBannerById(id_banner);
+		errors.state(request, banner.getCard() == null, "holder", "administrator.card.bannerHasPreviousCard");
+
 	}
 
 	@Override
 	public void create(final Request<Card> request, final Card entity) {
 
+		Integer id_banner = request.getModel().getInteger("id_banner").intValue();
+		Banner banner = this.repository.findOneBannerById(id_banner);
+		banner.setCard(entity);
+
 		this.repository.save(entity);
+		this.bannerRepository.save(banner);
 
 	}
 

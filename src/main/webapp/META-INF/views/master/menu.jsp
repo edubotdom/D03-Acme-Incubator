@@ -56,10 +56,12 @@
 			<!-- Tool links -->
 			<acme:menu-suboption code="master.menu.administrator.listTool" action="/administrator/tool/list"/>
 			<acme:menu-suboption code="master.menu.administrator.createTool" action="/administrator/tool/create"/>
-
 			<!-- Challenge links -->
 			<acme:menu-suboption code="master.menu.administrator.listChallenge" action="/administrator/challenge/list"/>
 			<acme:menu-suboption code="master.menu.administrator.createChallenge" action="/administrator/challenge/create"/>
+			<!-- Banner links -->
+			<acme:menu-suboption code="master.menu.administrator.listBanner" action="/administrator/banner/list"/>
+			<acme:menu-suboption code="master.menu.administrator.createBanner" action="/administrator/banner/create"/>
 
 
 			<acme:menu-separator/>

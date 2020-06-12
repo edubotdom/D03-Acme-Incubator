@@ -21,6 +21,7 @@
 	<acme:form-textbox code="administrator.card.form.label.brand" path="brand"/>
 	<acme:form-textbox code="administrator.card.form.label.cvv" path="cvv"/>
 	
+	<acme:form-hidden path="id_banner"/>
 	
 	<acme:form-submit test="${command == 'create'}" code="administrator.card.form.button.create"
 		action="/administrator/card/create"/>	

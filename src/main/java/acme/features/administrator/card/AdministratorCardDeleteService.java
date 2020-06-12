@@ -4,7 +4,9 @@ package acme.features.administrator.card;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import acme.entities.banners.Banner;
 import acme.entities.cards.Card;
+import acme.features.administrator.banner.AdministratorBannerRepository;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -15,7 +17,9 @@ import acme.framework.services.AbstractDeleteService;
 public class AdministratorCardDeleteService implements AbstractDeleteService<Administrator, Card> {
 
 	@Autowired
-	AdministratorCardRepository repository;
+	AdministratorCardRepository		repository;
+	@Autowired
+	AdministratorBannerRepository	bannerRepository;
 
 
 	@Override
@@ -65,6 +69,11 @@ public class AdministratorCardDeleteService implements AbstractDeleteService<Adm
 	public void delete(final Request<Card> request, final Card entity) {
 		assert request != null;
 		assert entity != null;
+
+		Banner banner = this.repository.findBannerByCard(entity.getId());
+		banner.setCard(null);
+
+		this.bannerRepository.save(banner);
 		this.repository.delete(entity);
 	}
 

@@ -33,6 +33,20 @@ public class AdministratorBannerShowService implements AbstractShowService<Admin
 		assert entity != null;
 		assert model != null;
 
+		boolean isCardEmpty = entity.getCard() == null;
+		model.setAttribute("isCardEmpty", isCardEmpty);
+
+		if (isCardEmpty) {
+			String createCC = "../card/create?id=" + entity.getId();
+			model.setAttribute("linkCreateCC", createCC);
+		}
+
+		if (!isCardEmpty) {
+			Integer idCard = entity.getCard().getId();
+			String showCC = "../card/show?id=" + idCard;
+			model.setAttribute("linkShowCC", showCC);
+		}
+
 		request.unbind(entity, model, "picture", "slogan", "url");
 	}
 

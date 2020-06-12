@@ -17,3 +17,5 @@ administrator.card.form.label.cvv = Código CVV:
 administrator.card.form.button.create=Crear
 administrator.card.form.button.update=Actualizar
 administrator.card.form.button.delete = Eliminar
+
+administrator.card.form.button.return=Volver
